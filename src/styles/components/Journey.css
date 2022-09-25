@@ -1,0 +1,30 @@
+.journeyBody {
+    width: 90vw;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://wallpapercave.com/wp/wp2632440.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 200px;
+    color: white;
+    border-radius: 10px;
+}
+.journeyBody h1 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Roboto', serif;
+    margin-top: 150px;
+    letter-spacing: 4px;
+}
+.journeyBody p {
+    font-size: 20px;
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 36px;
+}
