@@ -1,0 +1,50 @@
+.homeBody {
+    height: 100vh;
+    width: 95vw;
+    background-image: url("../../assets/homeBg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    border-radius: 10px;
+}
+
+.homeBody h1{
+    font-size: 56px;
+    width: 40%;
+    padding-top: 15%;
+    margin-left: 10%;
+}
+.homeBody p {
+    font-size: 24px;
+    width: 40%;
+    padding-top: 25px;
+    margin-left: 10%;
+}
+
+.homeButton {
+    margin-top: 50px;
+    background-image: linear-gradient(135deg, rgb(214, 127, 214), rgb(142, 47, 142));
+    width: 150px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    margin-left: 10%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.15s linear;
+}
+.homeButton:hover {
+    background-image: linear-gradient(135deg, rgb(93, 52, 93), rgb(207, 88, 207))
+}
+
+.homeButton p {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 18px;
+}
