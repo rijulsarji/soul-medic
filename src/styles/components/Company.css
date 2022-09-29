@@ -1,43 +1,30 @@
 .companyBody {
-    width: 90vw;
+    display: flex;
+    width: 80vw;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 60vh;
     margin-top: 150px;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, #19162A 65% , black);
 }
-.companyImg{
-    width: 50%;
+.companyBody div {
     height: 100%;
-    background-image: url("https://images.pexels.com/photos/1172253/pexels-photo-1172253.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    width: 100%;
+    background-image: url("https://media-cldnry.s-nbcnews.com/image/upload/newscms/2020_10/3256166/200304-tarot-cards-2x1-al-1425.jpg");
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.companyAbout {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 50%;
-    height: 100%;
-    padding: 40px;
-    color: white;
-    background-image: linear-gradient(135deg, rgb(255, 184, 255), rgb(118, 40, 118) 75% );
-}
-.companyAbout h1 {
-    text-align: center;
-    font-size: 48px;
-    letter-spacing: 2px;
-    font-family: 'Roboto', serif;
-}
-.companyAbout p {
-    font-size: 20px;
-    font-family: 'Playfair Display', sans-serif;
-    text-align: center;
-    line-height: 32px;
+.companyBody p {
+    max-width: 50%;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
 }

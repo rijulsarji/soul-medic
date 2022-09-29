@@ -1,30 +1,30 @@
 .navbarBody {
-    height: 150px;
-    width: 90vw;
-    margin-left: auto;
-    margin-right: auto;
+    height: 100px;
+    width: 100vw;
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
 }
 
 .navbarBody img {
-    height: 100px;
+    height: 80px;
     border-radius: 5px;
 }
-
-.navLinks {
+.navbarLinks {
+    font-size: 36px;
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    justify-content: space-between;
+    width: 30%;
 }
-.navLinks p {
-    font-size: 24px;
-    color: purple;
-    text-decoration: double;
-    font-family: 'Roboto', serif;
-    transition: all 0.15s linear;
+.navbarLinks p {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    transition: all 0.10s linear;
 }
-.navLinks p:hover {
-    color: rgb(215, 76, 99);
+.navbarLinks p:hover {
+    color: #d2b3f0;
 }

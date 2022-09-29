@@ -1,50 +1,34 @@
-.homeBody {
-    height: 95vh;
-    width: 90vw;
-    background-image: url("../../assets/homeBg.webp");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.bannerBody {
+    margin-bottom: 50px;
+}
+.bannerBG {
+    margin-top: 50px;
+    width: 80vw;
+    height: 80vh;
     margin-left: auto;
     margin-right: auto;
-    color: white;
-    font-family: "Roboto", sans-serif;
-    border-radius: 10px;
+    background-image: url("../../assets/bgImgGif.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
 }
-
-.homeBody h1{
-    font-size: 56px;
-    width: 40%;
-    padding-top: 15%;
-    margin-left: 10%;
-}
-.homeBody p {
-    font-size: 24px;
-    width: 40%;
-    padding-top: 25px;
-    margin-left: 10%;
-}
-
-.homeButton {
+.bannerContent {
     margin-top: 50px;
-    background-color: rgb(207, 88, 207);
-    width: 150px;
     display: flex;
-    height: 60px;
+    flex-direction: column;
     align-items: center;
-    margin-left: 10%;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.15s linear;
+    width: 100vw;
+    gap: 25px;
+    margin-bottom: 50px;
 }
-.homeButton:hover {
-    background-color: rgb(142, 47, 142);
+.bannerContent h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
 }
-
-.homeButton p {
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-    font-size: 18px;
+.bannerContent p {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 24px;
 }
