@@ -1,0 +1,29 @@
+.dashmeetBody {
+    margin-top: 150px;
+    width: 80vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(#19162A 65%, black );
+    border-radius: 10px;
+}
+.dashmeetBody div {
+    height: 50%;
+    width: 100%;
+    background-image: url("https://llandscapes-10674.kxcdn.com/wp-content/uploads/2018/01/4-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dashmeetBody p {
+    margin-top: 25px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+    width: 80%;
+}

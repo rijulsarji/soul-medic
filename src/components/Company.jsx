@@ -1,9 +1,32 @@
-import React from 'react'
+import { motion, useAnimation } from 'framer-motion';
+import React, { useEffect } from 'react'
 import "../styles/components/Company.css"
+import { useInView } from 'react-intersection-observer';
 
 const Company = () => {
+
+  const { ref, inView } = useInView();
+  const animation = useAnimation();
+
+  useEffect(() => {
+    if (inView) {
+      animation.start({
+        opacity: 1,
+        transition: {
+          duration: 1,
+        },
+      });
+    }
+
+    if (!inView) {
+      animation.start({
+        opacity: 0,
+      });
+    }
+  });
+
   return (
-    <div className="companyBody">
+    <motion.div className="companyBody" ref={ref} animate={animation}>
       <div>
 
       </div>
@@ -14,7 +37,7 @@ const Company = () => {
         delivers solutions and products that benefits users in their day to day
         life
       </p>
-    </div>
+    </motion.div>
   );
 }
 

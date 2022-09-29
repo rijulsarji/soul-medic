@@ -1,10 +1,33 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../styles/components/Journey.css"
 import Logo from "../assets/Logo.png"
+import { useInView } from 'react-intersection-observer';
+import { motion, useAnimation } from 'framer-motion';
 
 const Journey = () => {
+
+  const { ref, inView } = useInView();
+  const animation = useAnimation();
+
+  useEffect(() => {
+    if (inView) {
+      animation.start({
+        opacity: 1,
+        transition: {
+          duration: 1,
+        },
+      });
+    }
+
+    if (!inView) {
+      animation.start({
+        opacity: 0,
+      });
+    }
+  });
+
   return (
-    <div className="journeyBody">
+    <motion.div className="journeyBody" ref={ref} animate={animation}>
       <h2>Our Journey</h2>
       <img
         src={Logo}
@@ -25,7 +48,7 @@ const Journey = () => {
         work existed, but I never gave them the upper hand. Belive yourself is
         always a good mantra for me; I believe myself, and so should you too."
       </p>
-    </div>
+    </motion.div>
   );
 }
 
