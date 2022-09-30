@@ -4,6 +4,7 @@ import Logo from "../assets/Logo.png"
 import "../styles/components/Navbar.css"
 
 const Navbar = () => {
+
   return (
     <div className="navbarBody">
       <img src={Logo} alt="Logo" />
@@ -12,7 +13,7 @@ const Navbar = () => {
         <Link to="/" style={{textDecoration: "none"}}>
           <p>Home</p>
         </Link>
-        <Link to="/" style={{textDecoration: "none"}}>
+        <Link to="/about-us" style={{textDecoration: "none"}}>
           <p>About Us</p>
         </Link>
         <Link to="/" style={{textDecoration: "none"}}>

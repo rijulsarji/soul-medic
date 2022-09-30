@@ -1,16 +1,14 @@
 import React from 'react'
 import Banner from '../components/Banner';
-import Company from '../components/Company';
-import Dashmeet from '../components/Dashmeet';
-import Journey from '../components/Journey';
+import Categories from '../components/Categories';
+import Reachout from '../components/Reachout';
 
 const LandingPage = () => {
   return (
     <div>
       <Banner />
-      <Journey />
-      <Company />
-      <Dashmeet />
+      <Categories />
+      <Reachout />
     </div>
   )
 }

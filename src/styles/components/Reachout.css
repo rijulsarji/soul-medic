@@ -1,0 +1,38 @@
+.reachoutBody {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.reachoutBody h1 {
+    font-size: 48px;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    text-align: center;
+}
+.reachoutFlexbox {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.reachoutButton {
+    border-radius: 10px;
+    background-color: #efe3ff;
+    width: 25%;
+}
+.reachoutButton p {
+    padding: 15px;
+    color: #9b72d3;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 24px;
+    transition: all 0.15s linear;
+    cursor: pointer;
+}
+.reachoutButton p:hover {
+    background-color: #9b72d3;
+    color: #efe3ff;
+}
