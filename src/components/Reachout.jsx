@@ -54,7 +54,9 @@ const Reachout = () => {
             <p>+91 99998 98562</p>
             <br />
             <h1>Email ID</h1>
-            <a href='mailto:'>abcd@gmail.com</a>
+            <a href="mailto:">abcd@gmail.com</a>
+            <h1>Address</h1>
+            <p>221b Baker St, London NW1 6XE, United Kingdom</p>
           </div>
         </Popup>
       </div>

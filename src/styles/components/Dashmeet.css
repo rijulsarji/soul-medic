@@ -13,11 +13,13 @@
 }
 .dashmeetBody div {
     height: 50%;
-    width: 100%;
-    background-image: url("https://llandscapes-10674.kxcdn.com/wp-content/uploads/2018/01/4-1.jpg");
-    background-position: center;
+    width: 20%;
+    background-image: url("../../assets/DashmeetKaur.jpg");
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .dashmeetBody p {
     margin-top: 25px;
