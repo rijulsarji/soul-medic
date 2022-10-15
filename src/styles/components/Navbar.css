@@ -12,13 +12,14 @@
 .navbarBody img {
     height: 80px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .navbarLinks {
     font-size: 36px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 30%;
+    width: 20%;
 }
 .navbarLinks p {
     color: white;

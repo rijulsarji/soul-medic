@@ -33,14 +33,14 @@ const Categories = () => {
       <h1>Our Categories of shopping...</h1>
 
       <div className="categoryFlexbox">
-        <div className="categoryButton" onClick={() => navigate("/")}>
-          <p>Category 1</p>
+        <div className="categoryButton" onClick={() => navigate("/crystals")}>
+          <p>Crystals</p>
         </div>
-        <div className="categoryButton" onClick={() => navigate("/")}>
-          <p>Category 2</p>
+        <div className="categoryButton" onClick={() => navigate("/e-books")}>
+          <p>E-Books</p>
         </div>
-        <div className="categoryButton" onClick={() => navigate("/")}>
-          <p>Category 3</p>
+        <div className="categoryButton" onClick={() => navigate("/bracelets")}>
+          <p>Bracelets</p>
         </div>
       </div>
 
